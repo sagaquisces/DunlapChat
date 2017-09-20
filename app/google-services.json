@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "951344821485",
+    "firebase_url": "https://dunlapchat-4f946.firebaseio.com",
+    "project_id": "dunlapchat-4f946",
+    "storage_bucket": "dunlapchat-4f946.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951344821485:android:3fe627b6bdba829e",
+        "android_client_info": {
+          "package_name": "com.example.guest.dunlapchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951344821485-liettppo4vcdfv6ju1gn9j6ajlf2hf8v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.dunlapchat",
+            "certificate_hash": "f182d12e86119c483d7b3cf6ec98cba6a79a0ac3"
+          }
+        },
+        {
+          "client_id": "951344821485-0mibq6uqkdmt2muf6msn1edi06cn6s1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ0qfLUaCTlcSkEXPdHVizBnM3WRMp-X0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951344821485-0mibq6uqkdmt2muf6msn1edi06cn6s1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
