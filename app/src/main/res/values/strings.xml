@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">DunlapChat</string>
+    <string name="register_activity">Register Activity</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
 </resources>
