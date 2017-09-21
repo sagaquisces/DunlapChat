@@ -44,6 +44,7 @@ public class SettingsActivity extends AppCompatActivity {
         mStatus = (TextView) findViewById(R.id.settings_status);
 
         mStatusBtn = (Button) findViewById(R.id.settings_status_btn);
+        mImageBtn = (Button) findViewById(R.id.settings_image_btn);
 
         mCurrentUser = FirebaseAuth.getInstance().getCurrentUser();
         String current_uid = mCurrentUser.getUid();
@@ -78,6 +79,13 @@ public class SettingsActivity extends AppCompatActivity {
                 Intent status_intent = new Intent(SettingsActivity.this, StatusActivity.class);
                 status_intent.putExtra("status_value", status_value);
                 startActivity(status_intent);
+            }
+        });
+
+        mImageBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Change image feature not yet enabled...", Toast.LENGTH_LONG).show();
             }
         });
     }
