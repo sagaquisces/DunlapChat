@@ -9,4 +9,9 @@
     <string name="log_out">Log Out</string>
     <string name="login">Login</string>
     <string name="your_email">Your Email</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="request_fragment">Welcome to Request Fragment</string>
+    <string name="chat_fragment">Welcome to Chat Fragment</string>
+    <string name="friends_fragment">Welcome to Friends Fragment</string>
 </resources>
